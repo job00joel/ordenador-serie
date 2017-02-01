@@ -1,0 +1,120 @@
+@import 'vendor/normalize'
+
+body
+	background-color #f7f7f7
+	color #008b95
+	font-family 'Raleway', sans-serif
+
+footer
+	background-color #6ca3b2
+	color white
+	font-size 1.5em
+	padding 5em 1.2em 1em
+	min-height 3em
+
+header
+	h1
+		font-family 'source sans pro',sans-serif
+		font-size 3em
+		font-weight 700
+		
+.content
+	display flex
+	
+	.adding
+	.info
+	.numbers
+		height 50vh
+		position relative
+		
+	.adding
+		background-color #008f96	
+		padding 0 3em
+		width 40%
+		
+		.form-group
+			left 50%
+			position absolute
+			top 50%
+			transform translate(-50%, -50%)
+			
+			button
+			input.number
+				font-size 1.5em
+				height 2.5em
+
+			button
+				background-color #78d4d5
+				border 0
+				color #008694
+				margin-left .5em
+				
+			input.number
+				line-height 1.5em
+				width 6em
+
+	.info	
+		background-color #00bdc0
+		color #f6fdfe
+		font-size 2em
+		width 40%
+		
+		p
+			margin 0
+			padding 0 3em
+			position absolute
+			top 50%
+			transform translateY(-50%)
+			
+	.numbers
+		background-color #78d4d5
+		color white		
+		width 20%
+		
+		
+		.boxes
+			height 90%
+			margin 0 auto
+			overflow-y scroll
+			width 30%
+			
+			.box
+				margin 1em 0
+				width 90%
+				
+				&:first-of-type
+					margin-top .5em
+.ordered
+	background-color #d0d0d0
+	display flex
+	font-size 2em
+	min-height 8em
+	overflow-x scroll
+	padding 3em
+		
+.box
+	background-color #009197
+	border-radius .2em
+	color white
+	margin-right 1.5em
+	padding .5em 1.5em
+	text-align center
+	width auto
+	
+// @media screen and ( max-width 670px )
+// 	.content
+// 		display block
+		
+// 		.adding
+// 		.info
+// 		.numbers
+// 			height auto
+// 			width 100%
+			
+
+// 		.adding .form-group
+// 		.info p
+// 			font-size 18px
+// 			position relative
+// 			transform unset
+// 		

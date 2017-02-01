@@ -1,0 +1,50 @@
+doctype html
+html(lang='es')
+	head
+		title Ordenador de Serie
+		meta(charset='utf-8')
+		meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no')
+		meta(name='description', content='Desafío Frontend Ordenador de Serie')
+		meta(name='keywords', content='desafio, frontend, ordenador, serie, html, css, javascript')
+		meta(name='author', content='Job Wong <jobwongdavila@outlook.com>')
+		meta(name="robots", content="index, follow")
+
+		link(rel='stylesheet', href='https://fonts.googleapis.com/css?family=Source+Sans+Pro|Raleway', type='text/css')
+		link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css', type='text/css')
+		link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css', type='text/css')
+		link(rel='stylesheet', href='css/style.css', type='text/css')
+			
+	body
+		header
+			center
+				h1 Ordenador de Serie
+
+		div.content
+
+			div.info
+				p Añada números enteros positivos para luego ser ordenados
+
+			div.adding.form-inline
+				div.form-group
+					input.number.form-control(
+						maxlength='8',
+						type='text'
+					)
+
+					button.add-number.btn.btn-default.form-control
+						i.fa.fa-plus
+
+			div.numbers
+				div.boxes
+
+				center
+					button.sort.btn.btn-default Ordenar
+
+
+		div.ordered
+
+		footer
+			p 2017 - Todos los derechos reservados
+
+	script(src='https://code.jquery.com/jquery-3.1.1.min.js')
+	script(src='js/main.js')
